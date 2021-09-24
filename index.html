@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S. T. Restaurant's</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
     <!-- font awesome cdn link -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -52,11 +55,11 @@
 
 <section class="home" id="home">
 
-    <div class="home-slider">
+    <div class="swiper mySwiper home-slider">
 
-        <div class="wrapper">
+        <div class="swiper-wrapper wrapper">
 
-            <div class="slide">
+            <div class="swiper-slide slide">
                 <div class="content">
                    <span>our speacial dish</span>
                    <h3>spicy noodles</h3>
@@ -66,8 +69,9 @@
                     <div class="image">
                         <img src="/images/home-img-1.png" alt="">
                     </div>
+                </div>
 
-                    <div class="slide">
+                    <div class="swiper-slide slide">
                         <div class="content">
                             <span>our speacial dish</span>
                             <h3>fried chicken</h3>
@@ -81,7 +85,7 @@
                         </div>
                     </div>
 
-                    <div class="slide">
+                    <div class="swiper-slide slide">
                         <div class="content">
                             <span>our speacial dish</span>
                             <h3>hot pizza</h3>
@@ -93,12 +97,13 @@
                         <div class="image">
                             <img src="/images/home-img-3.png" alt="">
                         </div>
-                    
+                    </div>
 
-        </div>
+    </div>
+    
+    <div class="swiper-pagination"></div>
 
-
-    </div>  
+</div>
 
 
 
@@ -113,7 +118,8 @@
 
 
 
-
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
     <!-- custom js file link -->
     <script src="/js/script.js"></script>
 
